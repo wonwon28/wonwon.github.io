@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+html{
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    display: grid;
+    grid-template-columns:  50% 50%;
+}
+.Logo{
+    margin-top: 50px;
+    font-family: 'Raleway', sans-serif;
+    color: red;
+    font-size: 30px;
+    font-style: normal;
+    justify-self: center;
+    margin-right: 400px;
+}
+.container .navi{
+    display: flex;
+    margin-top: 50px;
+    font-family: 'Raleway', sans-serif;
+    color: red;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    
+    
+}
+.container .navi div{
+    margin-right: 50px;
+}
+
+
+.cont{
+    
+    height: 890px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: end;
+}
+img{
+    height: 500px;
+}
+
+.div1{
+   
+    height: 500px;
+    
+    display: flex;
+    justify-content: center;
+    margin-right: 290px;
+    
+    
+}
+
+.txt{
+    background-color: black;
+    color: red;
+    align-self: center;
+    height: 300px;
+    width: 600px;
+    text-align: left;
+    border: solid;
+    border-color: red;
+    border-radius: 20px;
+    padding: 20px;
+    padding-right: 20px;
+    font-family: 'Raleway', sans-serif;
+    
+}
+p{
+font-size: 20px;
+}
+h1{
+    font-size: 35px;
+}
